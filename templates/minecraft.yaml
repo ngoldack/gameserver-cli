@@ -1,0 +1,10 @@
+---
+game: minecraft
+image: 
+default-env:
+  - TEST=TEST
+default-cli:
+  - TEST=TEST
+min-ram: 1
+min-cpu: 2
+game-port: 25565
