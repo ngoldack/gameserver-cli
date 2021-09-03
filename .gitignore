@@ -1,0 +1,7 @@
+# Go related
+build/
+
+
+# Project related
+servers/
+data/

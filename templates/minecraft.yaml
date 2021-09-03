@@ -1,10 +1,9 @@
 ---
 game: minecraft
-image: 
-default-env:
-  - TEST=TEST
-default-cli:
-  - TEST=TEST
-min-ram: 1
-min-cpu: 2
-game-port: 25565
+image: itzg/minecraft-server
+env:
+  EULA: "TRUE"
+ram: 1
+cpu: 2
+game_port: 25565
+data_folder: /data
