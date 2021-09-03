@@ -1,7 +1,7 @@
 FROM gitpod/workspace-full
 
 # Install zsh
-RUN apt-get update && apt-get install -y zsh
+RUN sudo apt-get update && sudo apt-get install -y zsh
 
 # Install .dotfiles
 RUN git clone github.com/ngoldack/.dotfiles && cd .dotfiles && ./install
