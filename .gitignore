@@ -5,3 +5,4 @@ build/
 # Project related
 servers/
 data/
+*.compose.yaml
